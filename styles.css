@@ -1,4 +1,4 @@
-p{
+.grid-item{
 	background-color: #f2f2f2;
 	border: 1px solid #ccc;
 	padding: 20px;
@@ -6,7 +6,7 @@ p{
 	font-size: 18px;
 	
 }
-.main{
+.grid-container{
 	display: grid;
 	grid-template-columns:repeat(3, 1fr);
 	gap: 10px;
